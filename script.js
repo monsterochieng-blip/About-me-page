@@ -9,4 +9,4 @@ result = "experience"
 } else {
 result = "beginner"
 }
-document.getElementById"output").textContent = result
+document.getElementById("output").textContent = result
