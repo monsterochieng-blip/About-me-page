@@ -5,7 +5,7 @@ console.log(skills[i]);
 }
 let result;
 if (skills.length > 2) {
-result = "experienced"
+result = "experience"
 } else {
 result = "beginner"
 }
