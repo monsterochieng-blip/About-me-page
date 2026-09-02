@@ -1,19 +1,12 @@
 const skills = ["Bash", "Linux", "Python"];
 
-let output = "";
-
 for (let i = 0; i < skills.length; i++) {
-    output += skills[i];
-
-    if (i < skills.length - 1) {
-        output += ", ";
-    }
+console.log(skills[i]);
 }
-
+let result;
 if (skills.length > 2) {
-    output += " (experienced)";
+result = "experienced"
 } else {
-    output += " (beginner)";
+result = "beginner"
 }
-
-document.getElementById("output").textContent = output;
+document.getElementById"output").textContent = result
