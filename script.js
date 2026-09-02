@@ -7,6 +7,6 @@ let result;
 if (skills.length > 2) {
 result = "experience"
 } else {
-result = "beginner"
+result = "beginner";
 }
-document.getElementById("output").textContent = result
+document.getElementById("output").textContent = result;
