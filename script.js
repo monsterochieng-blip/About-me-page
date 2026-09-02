@@ -7,3 +7,4 @@ console.log("experienced");
 } else {
 console.log("beginner");
 } 
+document.getElementById("output").textContent = output;
