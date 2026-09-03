@@ -33,3 +33,4 @@ nav { display: flex; gap: 15px; }
 main { grid-template-columns: 1fr; }
 header { flex-direction: column; }
 }
+.highlight { background-color: yellow; border-color: red; }
