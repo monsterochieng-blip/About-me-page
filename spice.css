@@ -6,3 +6,6 @@ h1 {
     font-size: 50px; padding: 40px; 
 }
 nav a { font-size: 30px; }
+.expired {
+opacity: 0.5; font-size: 18px; border-color: red; }
+#toggle { background-color: purple; font-color:green; font-size: 60px; }

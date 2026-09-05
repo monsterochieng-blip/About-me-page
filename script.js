@@ -1,19 +1,14 @@
-const skills = ["Bash", "Linux", "Python"];
-
-for (let i = 0; i < skills.length; i++) {
-console.log(skills[i]);
-}
+const skills = Array.from(document.querySelectorAll(".skills li")).map(li => li.textContent);
 let result;
 if (skills.length > 2) {
-result = "experience"
+result = "(experienced)"
 } else {
-result = "beginner";
+result = "(beginner)";
 }
-document.getElementById("output").textContent = result;
+document.getElementById("output").textContent = skills.join(", ") + " " +result;
 const btn = document.querySelector("#toggleBtn");
 btn.addEventListener("click", function() {
 document.querySelector(".skills").classList.toggle("highlight"); });
-list = skills.join(", ")
 async function loadRepoCount() {
   const response = await fetch("https://api.github.com/users/monsterochieng-blip");
   const data = await response.json();
